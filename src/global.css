@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0.625rem;
+}
+
+:root {
+  --font-dark: #353535;
+  --font-light: #f8f8ff;
+  --light-green: #c7f9cc;
+  --green: #80ed99;
+  --dark-green: #57cc99;
+  --light-blue: #38a3a5;
+  --dark-blue: #22577a;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono");
+
+html {
+  color: var(--font-dark);
+  font-family: "Merriweather Sans", sans-serif;
+}
