@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { signInWithGoogle } from "../../firebase/firebase.utils";
 
 export default function Nav() {
   const Div = styled.div`
@@ -44,7 +45,9 @@ export default function Nav() {
           <A href="#">Ordering</A>
         </Li>
         <Li>
-          <A href="/sign-in/">Sign In</A>
+          <A href="#" onClick={signInWithGoogle}>
+            Sign In
+          </A>
         </Li>
       </Ul>
     </Div>
