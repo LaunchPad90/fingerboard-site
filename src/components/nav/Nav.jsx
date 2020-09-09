@@ -1,14 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import { signInWithGoogle } from "../../firebase/firebase.utils";
+import {
+  signInWithGoogle,
+  signOutWithGoogle,
+} from "../../firebase/firebase.utils";
 
-export default function Nav() {
+export default function Nav(props) {
   const Div = styled.div`
     padding: 0 2%;
   `;
 
   const Li = styled.li`
     margin-left: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--font-dark);
   `;
 
   const Ul = styled.ul`
@@ -25,6 +31,16 @@ export default function Nav() {
     text-decoration: none;
     color: var(--font-dark);
   `;
+
+  let nav = props.user ? (
+    <li>
+      <A onClick={signOutWithGoogle}>{props.user.displayName}</A>
+    </li>
+  ) : (
+    <li>
+      <A onClick={signInWithGoogle}>Sign In</A>
+    </li>
+  );
 
   return (
     <Div>
@@ -44,11 +60,7 @@ export default function Nav() {
         <Li>
           <A href="#">Ordering</A>
         </Li>
-        <Li>
-          <A href="#" onClick={signInWithGoogle}>
-            Sign In
-          </A>
-        </Li>
+        <Li style={{ cursor: "pointer" }}>{nav}</Li>
       </Ul>
     </Div>
   );
