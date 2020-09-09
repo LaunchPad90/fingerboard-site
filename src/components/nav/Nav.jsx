@@ -6,9 +6,7 @@ import {
 } from "../../firebase/firebase.utils";
 
 export default function Nav(props) {
-  const Div = styled.div`
-    padding: 0 2%;
-  `;
+  const Div = styled.div``;
 
   const Li = styled.li`
     margin-left: 2rem;

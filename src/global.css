@@ -13,6 +13,7 @@
   --dark-green: #57cc99;
   --light-blue: #38a3a5;
   --dark-blue: #22577a;
+  --grid-bg: rgba(112, 128, 144, 0.7);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono");

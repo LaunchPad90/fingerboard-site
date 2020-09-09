@@ -8,7 +8,6 @@ export default function Hero() {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
-    clip-path: polygon(2% 0, 98% 0, 98% 100%, 2% 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;

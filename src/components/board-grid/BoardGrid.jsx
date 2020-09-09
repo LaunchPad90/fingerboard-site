@@ -1,13 +1,12 @@
 import React from "react";
+import Deck from "../deck-card/Deck";
 import styled from "styled-components";
-import deck from "../../images/deck_1.jpg";
 
-export default function BoardGrid() {
+export default function BoardGrid(props) {
   const Div = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 2%;
   `;
 
   const P = styled.p`
@@ -19,15 +18,6 @@ export default function BoardGrid() {
   const DivTitle = styled.div`
     font-size: 2.5rem;
     text-align: center;
-  `;
-
-  const ImgDiv = styled.div`
-    background-image: url("${deck}");
-    height: 20rem;
-    width: 10rem;
-    background-size: cover;
-    background-position: center;
-    margin: 2rem;
   `;
 
   const TextDiv = styled.div`
@@ -44,9 +34,7 @@ export default function BoardGrid() {
         <DivTitle>Something here</DivTitle>
         <P>This is where we would write something about the boards!</P>
       </TextDiv>
-      <Div>
-        <ImgDiv />
-      </Div>
+      <Deck />
     </Div>
   );
 }
