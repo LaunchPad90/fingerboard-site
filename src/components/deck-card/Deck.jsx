@@ -9,7 +9,6 @@ export default function Deck(props) {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: var(--grid-bg);
   `;
 
   return (

@@ -5,6 +5,7 @@ import { auth } from "../firebase/firebase.utils";
 
 import "../../src/global.css";
 import BoardGrid from "../components/board-grid/BoardGrid";
+import { Footer } from "../components/footer/Footer";
 
 class Home extends Component {
   constructor() {
@@ -34,6 +35,7 @@ class Home extends Component {
         <Hero />
         <Nav user={this.state.currentUser} />
         <BoardGrid />
+        <Footer />
       </div>
     );
   }
