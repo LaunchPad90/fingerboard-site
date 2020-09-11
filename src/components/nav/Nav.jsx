@@ -6,7 +6,9 @@ import {
 } from "../../firebase/firebase.utils";
 
 export default function Nav(props) {
-  const Div = styled.div``;
+  const Div = styled.div`
+    width: 100vw;
+  `;
 
   const Li = styled.li`
     margin-left: 2rem;
@@ -32,7 +34,7 @@ export default function Nav(props) {
 
   let nav = props.user ? (
     <li>
-      <A onClick={signOutWithGoogle}>{props.user.displayName}</A>
+      <A onClick={signOutWithGoogle}>Sign Out</A>
     </li>
   ) : (
     <li>
@@ -47,10 +49,10 @@ export default function Nav(props) {
           <A href="/">Home</A>
         </Li>
         <Li>
-          <A href="#">Decks</A>
+          <A href="/decks/">Decks</A>
         </Li>
         <Li>
-          <A href="#">The Creator</A>
+          <A href="/about/">The Creator</A>
         </Li>
         <Li>
           <A href="#">Contact</A>

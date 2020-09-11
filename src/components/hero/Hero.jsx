@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Hero() {
+export default function Hero(props) {
   const Div = styled.div`
-    height: 80vh;
-    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    height: 70vh;
+    background-image: url(${props.bgImg});
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,8 @@ export default function Hero() {
   `;
 
   return (
-    <Div>
-      <H1>Welcome to 509 FingerBoards</H1>
+    <Div style={{ backgroundImage: props.bgImg }}>
+      <H1>{props.heroText}</H1>
     </Div>
   );
 }

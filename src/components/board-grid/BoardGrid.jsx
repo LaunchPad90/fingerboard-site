@@ -7,33 +7,14 @@ export default function BoardGrid(props) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  `;
-
-  const P = styled.p`
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 1rem;
-  `;
-
-  const DivTitle = styled.div`
-    font-size: 2.5rem;
-    text-align: center;
-  `;
-
-  const TextDiv = styled.div`
-    font-size: 2rem;
-    margin: 4rem 0;
-    border: 2px solid black;
-    width: 100vw;
-    height: 20vh;
+    margin-top: 5rem;
   `;
 
   return (
     <Div>
-      <TextDiv>
-        <DivTitle>Something here</DivTitle>
-        <P>This is where we would write something about the boards!</P>
-      </TextDiv>
+      <h1 style={{ fontSize: "3rem", marginBottom: "2rem" }}>
+        Available Decks
+      </h1>
       <Deck />
     </Div>
   );
