@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export default function Hero(props) {
   const Div = styled.div`
-    height: 70vh;
+    height: 60vh;
     background-image: url(${props.bgImg});
     background-size: cover;
     background-position: center;

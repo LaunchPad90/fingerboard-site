@@ -11,17 +11,16 @@ export default function Nav(props) {
   `;
 
   const Li = styled.li`
-    margin-left: 2rem;
+    margin-left: 5rem;
     font-size: 2rem;
     text-decoration: none;
-    color: var(--font-dark);
   `;
 
   const Ul = styled.ul`
     list-style: none;
     padding: 0.5rem;
     display: flex;
-    background-color: var(--dark-green);
+    background-color: var(--nav-black);
     display: flex;
     justify-content: center;
   `;
@@ -29,7 +28,7 @@ export default function Nav(props) {
   const A = styled.a`
     font-size: 2rem;
     text-decoration: none;
-    color: var(--font-dark);
+    color: var(--font-light);
   `;
 
   let nav = props.user ? (
@@ -55,10 +54,7 @@ export default function Nav(props) {
           <A href="/about/">The Creator</A>
         </Li>
         <Li>
-          <A href="#">Contact</A>
-        </Li>
-        <Li>
-          <A href="#">Ordering</A>
+          <A href="#">Custom Orders</A>
         </Li>
         <Li style={{ cursor: "pointer" }}>{nav}</Li>
       </Ul>

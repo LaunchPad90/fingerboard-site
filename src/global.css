@@ -8,12 +8,14 @@
 :root {
   --font-dark: #353535;
   --font-light: #f8f8ff;
-  --light-green: #c7f9cc;
-  --green: #80ed99;
-  --dark-green: #57cc99;
-  --light-blue: #38a3a5;
-  --dark-blue: #22577a;
-  --grid-bg: rgba(112, 128, 144, 0.7);
+  --nav-black: #1b1b1b;
+  --light-green: #5ae274;
+  --med-green: #2dc963;
+  --dark-green: #143601;
+  --light-blue: #059fffb8;
+  --med-blue: #0c89dd;
+  --dark-blue: #0c569b;
+  --slategrey: #c2c2c2;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono");

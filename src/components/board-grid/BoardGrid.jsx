@@ -7,7 +7,7 @@ export default function BoardGrid(props) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5rem;
+    margin: 4rem 4rem 0 4rem;
   `;
 
   return (

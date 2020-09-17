@@ -30,22 +30,21 @@ class Home extends Component {
   }
 
   render() {
-    const P = styled.p`
-      font-size: 1.5rem;
+    const DivTitle = styled.div`
+      font-size: 2rem;
+      margin-bottom: 3rem;
       text-align: center;
-      margin-top: 1rem;
     `;
 
-    const DivTitle = styled.div`
-      font-size: 2.5rem;
+    const P = styled.p`
+      font-size: 1.6rem;
       text-align: center;
+      margin: 1rem 0;
+      font-family: "Roboto Mono", monospace;
     `;
 
     const TextDiv = styled.div`
-      font-size: 2rem;
-      margin: 4rem 0;
-      border: 2px solid black;
-      width: 100vw;
+      margin: 4rem 20rem;
       height: 20vh;
     `;
 
@@ -54,8 +53,13 @@ class Home extends Component {
         <Hero heroText="Welcome to 509 fingerboards" bgImg={indexHero} />
         <Nav user={this.state.currentUser} />
         <TextDiv>
-          <DivTitle>Something here</DivTitle>
-          <P>This is where we would write something about the boards!</P>
+          <DivTitle>High Quality Hand Pressed Fingerboards</DivTitle>
+          <P>
+            Our products are inspired by the people and world around us.
+            Beautiful, high quality goods that are designed especially for you.
+            Discover our story and meet the people that make our brand what it
+            is today.
+          </P>
         </TextDiv>
         <Footer />
       </div>
