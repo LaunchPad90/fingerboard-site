@@ -11,11 +11,11 @@ export default function About() {
 
   return (
     <Div>
+      <Nav />
       <Hero
         heroText="About the Creator"
         bgImg="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
       />
-      <Nav />
       <Footer />
     </Div>
   );

@@ -6,6 +6,7 @@ import { Footer } from "../components/footer/Footer";
 import indexHero from "../images/hero-imgs/indexHero.jpeg";
 import styled from "styled-components";
 import "../../src/global.css";
+import BoardGrid from "../components/board-grid/BoardGrid";
 
 class Home extends Component {
   constructor() {
@@ -50,7 +51,6 @@ class Home extends Component {
 
     return (
       <div>
-        <Hero heroText="Welcome to 509 fingerboards" bgImg={indexHero} />
         <Nav user={this.state.currentUser} />
         <TextDiv>
           <DivTitle>High Quality Hand Pressed Fingerboards</DivTitle>
@@ -61,6 +61,8 @@ class Home extends Component {
             is today.
           </P>
         </TextDiv>
+        <BoardGrid />
+
         <Footer />
       </div>
     );

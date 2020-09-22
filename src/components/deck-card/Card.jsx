@@ -8,20 +8,17 @@ export default function Card(props) {
     text-decoration: none;
     color: var(--font-dark);
     margin: 0 1rem 2rem 1rem;
-    background-color: var(--slategrey);
-    border-radius: 10px;
   `;
 
   const CardBox = styled.div``;
 
   const CardImage = styled.div`
-    height: 16rem;
-    width: 22rem;
+    height: 27rem;
+    width: 32rem;
     margin-bottom: 0;
     background-image: url("${props.bottom}");
     background-size: cover;
     background-position: center;
-    border-radius: 10px 10px 0 0;
   `;
 
   const CardContent = styled.div`

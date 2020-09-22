@@ -20,7 +20,7 @@ export default function Nav(props) {
     list-style: none;
     padding: 0.5rem;
     display: flex;
-    background-color: var(--nav-black);
+    background-color: var(--light-green);
     display: flex;
     justify-content: center;
   `;
@@ -28,7 +28,7 @@ export default function Nav(props) {
   const A = styled.a`
     font-size: 2rem;
     text-decoration: none;
-    color: var(--font-light);
+    color: var(--font-dark);
   `;
 
   let nav = props.user ? (
@@ -48,13 +48,10 @@ export default function Nav(props) {
           <A href="/">Home</A>
         </Li>
         <Li>
-          <A href="/decks/">Decks</A>
-        </Li>
-        <Li>
           <A href="/about/">The Creator</A>
         </Li>
         <Li>
-          <A href="#">Custom Orders</A>
+          <A href="/decks/">Custom Orders</A>
         </Li>
         <Li style={{ cursor: "pointer" }}>{nav}</Li>
       </Ul>
