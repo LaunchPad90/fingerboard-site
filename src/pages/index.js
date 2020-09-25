@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../components/nav/Nav";
-import Hero from "../components/hero/Hero";
 import { auth } from "../firebase/firebase.utils";
 import { Footer } from "../components/footer/Footer";
-import indexHero from "../images/hero-imgs/indexHero.jpeg";
 import styled from "styled-components";
 import "../../src/global.css";
 import BoardGrid from "../components/board-grid/BoardGrid";

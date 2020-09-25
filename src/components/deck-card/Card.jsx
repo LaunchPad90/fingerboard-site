@@ -8,6 +8,8 @@ export default function Card(props) {
     text-decoration: none;
     color: var(--font-dark);
     margin: 0 1rem 2rem 1rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 6px #ccc;
   `;
 
   const CardBox = styled.div``;
@@ -19,6 +21,11 @@ export default function Card(props) {
     background-image: url("${props.bottom}");
     background-size: cover;
     background-position: center;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
   `;
 
   const CardContent = styled.div`
@@ -42,7 +49,9 @@ export default function Card(props) {
   return (
     <CardBox>
       <Card href="/sign-in">
-        <CardImage />
+        <div style={{ overflow: "hidden" }}>
+          <CardImage />
+        </div>
         <CardContent>
           <Price>
             {props.price}
