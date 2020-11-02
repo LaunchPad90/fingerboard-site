@@ -53,7 +53,6 @@ export default function Nav(props) {
         <Li>
           <A href="/decks/">Decks</A>
         </Li>
-        <Li style={{ cursor: "pointer" }}>{nav}</Li>
       </Ul>
     </Div>
   );
