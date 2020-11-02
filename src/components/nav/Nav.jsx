@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  signInWithGoogle,
-  signOutWithGoogle,
-} from "../../firebase/firebase.utils";
+// import {
+//   signInWithGoogle,
+//   signOutWithGoogle,
+// } from "../../firebase/firebase.utils";
 
 export default function Nav(props) {
   const Div = styled.div`
@@ -31,15 +31,15 @@ export default function Nav(props) {
     color: var(--font-dark);
   `;
 
-  let nav = props.user ? (
-    <li>
-      <A onClick={signOutWithGoogle}>Sign Out</A>
-    </li>
-  ) : (
-    <li>
-      <A onClick={signInWithGoogle}>Sign In</A>
-    </li>
-  );
+  // let nav = props.user ? (
+  //   <li>
+  //     <A onClick={signOutWithGoogle}>Sign Out</A>
+  //   </li>
+  // ) : (
+  //   <li>
+  //     <A onClick={signInWithGoogle}>Sign In</A>
+  //   </li>
+  // );
 
   return (
     <Div>
