@@ -13,7 +13,7 @@ class Home extends Component {
     super();
 
     this.state = {
-      currentUser: null,
+      
     };
   }
 
@@ -51,7 +51,7 @@ class Home extends Component {
 
     return (
       <div>
-        <Nav user={this.state.currentUser} />
+        <Nav />
         <Hero 
           heroText="509 Fingerboards"
           bgImg={pix}
