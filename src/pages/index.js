@@ -17,18 +17,18 @@ class Home extends Component {
     };
   }
 
-  unsubscribeFromAuth = null;
+  // unsubscribeFromAuth = null;
 
-  componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged((user) => {
-      this.setState({ currentUser: user });
-      console.log(user);
-    });
-  }
+  // componentDidMount() {
+  //   this.unsubscribeFromAuth = auth.onAuthStateChanged((user) => {
+  //     this.setState({ currentUser: user });
+  //     console.log(user);
+  //   });
+  // }
 
-  componentWillUnmount() {
-    this.unsubscribeFromAuth();
-  }
+  // componentWillUnmount() {
+  //   this.unsubscribeFromAuth();
+  // }
 
   render() {
     const DivTitle = styled.div`
