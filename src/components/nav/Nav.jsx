@@ -14,6 +14,7 @@ export default function Nav(props) {
     margin-left: 5rem;
     font-size: 2rem;
     text-decoration: none;
+    cursor: pointer;
   `;
 
   const Ul = styled.ul`

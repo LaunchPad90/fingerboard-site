@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../components/nav/Nav";
-import { auth } from "../firebase/firebase.utils";
+// import { auth } from "../firebase/firebase.utils";
 import { Footer } from "../components/footer/Footer";
 import styled from "styled-components";
 import "../../src/global.css";

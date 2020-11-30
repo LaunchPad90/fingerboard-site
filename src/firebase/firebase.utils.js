@@ -3,17 +3,19 @@
 // import "firebase/auth";
 
 // const config = {
-//   apiKey: "AIzaSyDkhdzcoWl9fe2j5VyQnl6c-27rKPvRxHk",
-//   authDomain: "fb-81efb.firebaseapp.com",
-//   databaseURL: "https://fb-81efb.firebaseio.com",
-//   projectId: "fb-81efb",
-//   storageBucket: "fb-81efb.appspot.com",
-//   messagingSenderId: "395295676127",
-//   appId: "1:395295676127:web:b58091786ed90aa1d2fb6a",
-//   measurementId: "G-GE5JP8396Q",
+//   apiKey: process.envGATSBY_FIREBASEAPIKEY,
+//   authDomain: process.envGATSBY_FIREBASEAUTHDOMAIN,
+//   databaseURL: process.envGATSBY_FIREBASEDATABASEURL,
+//   projectId: process.envGATSBY_FIREBASEPROJECTID,
+//   storageBucket: process.envGATSBY_FIREBASESTORAGEBUCKET,
+//   messagingSenderId: process.envGATSBY_FIREBASEMESSAGINGSENDERID,
+//   appId: process.envGATSBY_FIREBASEAPPID,
+//   measurementId: process.envGATSBY_FIREBASEMEASUREMENTID,
 // };
 
-// firebase.initializeApp(config);
+// if (typeof window !== 'undefined') {
+//   firebase.initializeApp(config);
+// }
 
 // export const auth = firebase.auth();
 // export const firestore = firebase.firestore();
