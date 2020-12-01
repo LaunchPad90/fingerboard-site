@@ -22,9 +22,9 @@ body {
   --slategrey: #c2c2c2;
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono"); */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono");
 
 html {
   color: var(--font-light);
-  /* font-family: "Merriweather Sans", sans-serif; */
+  font-family: "Merriweather Sans", sans-serif;
 }
