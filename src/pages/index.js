@@ -54,7 +54,7 @@ class Home extends Component {
       <div>
         <Nav />
         <Hero 
-          // heroText="Welcome to 509 Fingerboards"
+          heroText="Welcome to 509 Fingerboards"
           bgImg={pix}
         />
         <TextDiv>
