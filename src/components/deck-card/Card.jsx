@@ -6,10 +6,9 @@ export default function Card(props) {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: var(--font-dark);
+    color: var(--light-green);
     margin: 0 1rem 2rem 1rem;
     overflow: hidden;
-    box-shadow: 3px 3px 5px 6px #ccc;
   `;
 
   const CardBox = styled.div``;

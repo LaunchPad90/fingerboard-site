@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+
+import logo from "../../images/logo/LOGO.svg"
 // import {
 //   signInWithGoogle,
 //   signOutWithGoogle,
@@ -11,25 +13,21 @@ export default function Nav(props) {
   `;
 
   const Li = styled.li`
-    margin-left: 5rem;
-    font-size: 2rem;
-    text-decoration: none;
-    cursor: pointer;
+    text-decoration: none; 
   `;
 
   const Ul = styled.ul`
     list-style: none;
-    padding: 0.5rem;
+    background-color: var(--font-dark);
     display: flex;
-    background-color: var(--light-green);
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   `;
 
   const A = styled.a`
-    font-size: 2rem;
     text-decoration: none;
-    color: var(--font-dark);
+    font-size: 3rem;
+    color: var(--font-light);
   `;
 
   // let nav = props.user ? (
@@ -46,13 +44,22 @@ export default function Nav(props) {
     <Div>
       <Ul>
         <Li>
+          <A href="/"><img alt="logo" src={logo} /></A>
+        </Li>
+        <Li>
           <A href="/">Home</A>
         </Li>
         <Li>
-          <A href="/about/">The Creator</A>
+          <A href="/about/">Creator</A>
         </Li>
         <Li>
           <A href="/decks/">Decks</A>
+        </Li>
+        <Li>
+          <A href="/decks/">Order</A>
+        </Li>
+        <Li>
+          <A href="/decks/">Contact</A>
         </Li>
       </Ul>
     </Div>

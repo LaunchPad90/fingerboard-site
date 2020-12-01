@@ -6,7 +6,8 @@ import styled from "styled-components";
 import "../../src/global.css";
 import BoardGrid from "../components/board-grid/BoardGrid";
 import Hero from "../components/hero/Hero";
-import pix from "../images/hero-imgs/indexHero.jpeg"
+import pix from "../images/hero-imgs/Hero.png"
+
 
 class Home extends Component {
   constructor() {
@@ -53,7 +54,7 @@ class Home extends Component {
       <div>
         <Nav />
         <Hero 
-          heroText="509 Fingerboards"
+          // heroText="Welcome to 509 Fingerboards"
           bgImg={pix}
         />
         <TextDiv>

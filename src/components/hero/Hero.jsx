@@ -3,13 +3,11 @@ import styled from "styled-components";
 
 export default function Hero(props) {
   const Div = styled.div`
-    height: 60vh;
+    height: 30vh;
     background-image: url(${props.bgImg});
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     display: flex;
-    flex-direction: column;
     justify-content: center;
   `;
 
@@ -17,6 +15,7 @@ export default function Hero(props) {
     font-size: 4rem;
     text-align: center;
     color: var(--font-light);
+    margin-top: 5%;
   `;
 
   return (
