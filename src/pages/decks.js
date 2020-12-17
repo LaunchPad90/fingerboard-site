@@ -4,6 +4,8 @@ import { Footer } from "../components/footer/Footer";
 import Hero from "../components/hero/Hero";
 import Nav from "../components/nav/Nav";
 
+import "../../src/global.css";
+
 export default function Decks(props) {
   return (
     <div>

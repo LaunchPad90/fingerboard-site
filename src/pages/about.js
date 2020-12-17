@@ -4,6 +4,8 @@ import Nav from "../components/nav/Nav";
 import Hero from "../components/hero/Hero";
 import { Footer } from "../components/footer/Footer";
 
+import "../../src/global.css";
+
 export default function About(props) {
   const Div = styled.div`
     height: 100vh;

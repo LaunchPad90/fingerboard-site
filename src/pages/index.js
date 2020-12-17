@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import Nav from "../components/nav/Nav";
-// import { auth } from "../firebase/firebase.utils";
 import { Footer } from "../components/footer/Footer";
 import styled from "styled-components";
-import "../../src/global.css";
 import BoardGrid from "../components/board-grid/BoardGrid";
 import Hero from "../components/hero/Hero";
 import pix from "../images/hero-imgs/Hero.png"
 
+import "../../src/global.css";
 
 class Home extends Component {
   constructor() {
@@ -16,20 +15,7 @@ class Home extends Component {
     this.state = {
       
     };
-  }
-
-  // unsubscribeFromAuth = null;
-
-  // componentDidMount() {
-  //   this.unsubscribeFromAuth = auth.onAuthStateChanged((user) => {
-  //     this.setState({ currentUser: user });
-  //     console.log(user);
-  //   });
-  // }
-
-  // componentWillUnmount() {
-  //   this.unsubscribeFromAuth();
-  // }
+  } 
 
   render() {
     const DivTitle = styled.div`
