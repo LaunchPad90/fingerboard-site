@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "../components/nav/Nav";
+import Layout from "../components/layout/Layout";
 
 import "../../src/global.css";
 
 export default function SignIn(props) {
   return (
-    <div>
-      <Nav />
-    </div>
+    <Layout>
+
+    </Layout>
   );
 }

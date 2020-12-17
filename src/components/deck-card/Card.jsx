@@ -6,15 +6,14 @@ export default function Card(props) {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: var(--light-green);
+    color: var(--font-dark);
     margin: 0 1rem 2rem 1rem;
     overflow: hidden;
   `;
 
   const CardImage = styled.div`
     height: 27rem;
-    width: 32rem;
-    border: 1px solid white;
+    width: 24rem;
     margin-bottom: 0;
     background-image: url("${props.bottom}");
     background-size: contain;

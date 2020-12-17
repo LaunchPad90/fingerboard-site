@@ -12,7 +12,7 @@ export default function BoardGrid(props) {
 
   return (
     <Div>
-      <h1 style={{ fontSize: "3rem", marginBottom: "2rem", color: "var(--light-green)" }}>
+      <h1 style={{ fontSize: "3rem", marginBottom: "2rem", }}>
         Available Decks
       </h1>
       <Deck />

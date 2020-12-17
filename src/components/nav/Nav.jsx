@@ -2,14 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 import logo from "../../images/logo/LOGO.svg"
-// import {
-//   signInWithGoogle,
-//   signOutWithGoogle,
-// } from "../../firebase/firebase.utils";
 
 export default function Nav(props) {
   const Div = styled.div`
-    width: 100vw;
   `;
 
   const Li = styled.li`
@@ -19,6 +14,7 @@ export default function Nav(props) {
   const Ul = styled.ul`
     list-style: none;
     background-color: var(--font-dark);
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -26,35 +22,25 @@ export default function Nav(props) {
 
   const A = styled.a`
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: var(--font-light);
   `;
-
-  // let nav = props.user ? (
-  //   <li>
-  //     <A onClick={signOutWithGoogle}>Sign Out</A>
-  //   </li>
-  // ) : (
-  //   <li>
-  //     <A onClick={signInWithGoogle}>Sign In</A>
-  //   </li>
-  // );
 
   return (
     <Div>
       <Ul>
-        <Li>
-          <A href="/"><img alt="logo" src={logo} /></A>
-        </Li>
+        {/* <Li>
+          <A href="/"><img style={{marginTop: '.5rem'}} alt="logo" src={logo} /></A>
+        </Li> */}
         <Li>
           <A href="/">Home</A>
         </Li>
         <Li>
-          <A href="/about/">Creator</A>
+          <A href="/about/">Company</A>
         </Li>
-        <Li>
+        {/* <Li>
           <A href="/decks/">Decks</A>
-        </Li>
+        </Li> */}
         <Li>
           <A href="/decks/">Order</A>
         </Li>

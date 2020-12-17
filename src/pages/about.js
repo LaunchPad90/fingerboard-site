@@ -1,24 +1,34 @@
 import React from "react";
-import styled from "styled-components";
-import Nav from "../components/nav/Nav";
-import Hero from "../components/hero/Hero";
-import { Footer } from "../components/footer/Footer";
+import styled from 'styled-components'
+import Layout from "../components/layout/Layout"
 
 import "../../src/global.css";
 
 export default function About(props) {
+  
   const Div = styled.div`
-    height: 100vh;
+
+    .heading {
+      font-size: 3rem;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 2rem;
+      margin: 2rem;
+    }
   `;
 
   return (
-    <Div>
-      <Nav />
-      <Hero
-        heroText="About the Creator"
-        bgImg="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-      />
-      <Footer />
-    </Div>
+    <Layout>
+      <Div>
+        <div className="heading">About 509 Fingerboards</div>
+        <div className="section">
+          <p>509 Fingerboards, founded in 2020, is a small business operating out of Spokane, Washington. Their commitment to using the highest quality products continue to elevate their product. </p>
+        </div>
+      </Div>
+      
+    </Layout>
   );
 }

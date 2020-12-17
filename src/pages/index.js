@@ -7,6 +7,9 @@ import Hero from "../components/hero/Hero";
 import pix from "../images/hero-imgs/Hero.png"
 
 import "../../src/global.css";
+import Layout from "../components/layout/Layout";
+
+
 
 class Home extends Component {
   constructor() {
@@ -36,13 +39,13 @@ class Home extends Component {
       height: 20vh;
     `;
 
+    
+  
+
     return (
-      <div>
-        <Nav />
-        <Hero 
-          heroText="Welcome to 509 Fingerboards"
-          bgImg={pix}
-        />
+      <Layout>
+        
+        
         <TextDiv>
           <DivTitle>High Quality Hand Pressed Fingerboards</DivTitle>
           <P>
@@ -53,9 +56,7 @@ class Home extends Component {
           </P>
         </TextDiv>
         <BoardGrid />
-
-        <Footer />
-      </div>
+      </Layout>
     );
   }
 }
