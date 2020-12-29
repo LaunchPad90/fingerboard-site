@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import Nav from "../components/nav/Nav";
-import { Footer } from "../components/footer/Footer";
 import styled from "styled-components";
 import BoardGrid from "../components/board-grid/BoardGrid";
-import Hero from "../components/hero/Hero";
-import pix from "../images/hero-imgs/Hero.png"
 
 import "../../src/global.css";
 import Layout from "../components/layout/Layout";
@@ -44,8 +40,6 @@ class Home extends Component {
 
     return (
       <Layout>
-        
-        
         <TextDiv>
           <DivTitle>High Quality Hand Pressed Fingerboards</DivTitle>
           <P>
