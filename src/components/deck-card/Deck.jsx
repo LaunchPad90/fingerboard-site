@@ -14,14 +14,13 @@ export default function Deck(props) {
   return (
     <CardContainer>
       {deckData.map(deck => (
-        <div key={deck.id}>
-          <Card
+          <Card 
+            key={deck.id}
             top={deck.top}
             bottom={deck.bottom}
             content={deck.content}
             price={deck.price}
           />
-        </div>
       ))}
     </CardContainer>
   );

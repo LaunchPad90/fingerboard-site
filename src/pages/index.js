@@ -43,10 +43,7 @@ class Home extends Component {
         <TextDiv>
           <DivTitle>High Quality Hand Pressed Fingerboards</DivTitle>
           <P>
-            Our products are inspired by the people and world around us.
-            Beautiful, high quality goods that are designed especially for you.
-            Discover our story and meet the people that make our brand what it
-            is today.
+            A selection of hand crafted decks made from maple and exotic veneer straight from Spokane, Washington in the Pacific Northwest!
           </P>
         </TextDiv>
         <BoardGrid />
