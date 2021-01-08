@@ -3,7 +3,7 @@ import deck1b from "../images/deck-imgs/withShadow.jpg";
 import deck2 from "../images/deck-imgs/IMG_3024.jpg";
 import deck2b from "../images/deck-imgs/Deck1.jpg";
 import deck3 from "../images/deck-imgs/IMG_3035.jpg";
-import deck3b from "../images/deck-imgs/IMG_3036.jpg";
+import deck3b from "../images/deck-imgs/deck4.png";
 import deck4 from "../images/deck-imgs/IMG_3037.jpg";
 import deck4b from "../images/deck-imgs/IMG_3038.jpg";
 import deck5 from "../images/deck-imgs/IMG_3043.jpg";
