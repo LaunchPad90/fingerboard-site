@@ -1,5 +1,5 @@
 import deck1 from "../images/deck-imgs/IMG_3020.jpg";
-import deck1b from "../images/deck-imgs/IMG_3019.jpg";
+import deck1b from "../images/deck-imgs/Deck1.jpg";
 import deck2 from "../images/deck-imgs/IMG_3024.jpg";
 import deck2b from "../images/deck-imgs/IMG_3025.jpg";
 import deck3 from "../images/deck-imgs/IMG_3035.jpg";
