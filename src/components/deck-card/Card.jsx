@@ -15,7 +15,7 @@ export default function Card(props) {
     height: 27rem;
     width: 24rem;
     margin-bottom: 0;
-    background-image: url("${props.bottom}");
+    background-image: url(${(props) => props.deckImageSrc});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +45,7 @@ export default function Card(props) {
     <div>
       <Card href="/sign-in">
         <div style={{ overflow: "hidden" }}>
-          <CardImage />
+          <CardImage deckImageSrc={props.bottom}/>
         </div>
         <CardContent>
           <Price>
