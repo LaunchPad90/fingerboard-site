@@ -20,10 +20,10 @@ export default function Card(props) {
     background-repeat: no-repeat;
     background-position: center;
 
-    &:hover {
+    /* &:hover {
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
+    } */
   `;
 
   const CardContent = styled.div`
