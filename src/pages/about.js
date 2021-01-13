@@ -29,7 +29,8 @@ export default function About(props) {
       <Div>
         <div className="heading">About 509 Fingerboards</div>
         <div className="section">
-          <p>509 Fingerboards are 100% hand cut, dyed and sanded using the highest quality maple veneer. 509 FB started during the holidays of 2019 with the arrival of our first custom fingerboard mold. Since then we've been practicing the craft making decks non-stop. With a variety of deck shapes and sizes to choose from, theres a deck for everyone, no matter your skill level.
+          <p>
+            509 Fingerboards are 100% handmade. Each deck is cut, dyed, sanded and shaped by hand while using the best and highest quality veneer. 509 FB started during the holidays of 2019 when I received my first custom fingerboard mold. Since then I’ve been in the process of getting the first official stock ready for launch while continuing to practice the craft by making decks for myself and my homies. With a variety of differently sized and shaped decks to choose from there's something for everybody.
           </p>
         </div>
       </Div>
