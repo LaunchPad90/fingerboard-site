@@ -24,18 +24,8 @@ export const Footer = () => {
       <Div>
         <div className="social-container">
           <div>
-            <a href="#">
-              <img id="insta-link" src={insta} />
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img id="insta-link" src={insta} />
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img id="insta-link" src={insta} />
+            <a href="www.instagram.com">
+              <img id="insta-link" src={insta} alt="instagram logo" />
             </a>
           </div>
         </div>

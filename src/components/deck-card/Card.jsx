@@ -43,7 +43,7 @@ export default function Card(props) {
   `;
   return (
     <div>
-      <Card href="/sign-in">
+      <Card href="/deck">
         <div style={{ overflow: "hidden" }}>
           <CardImage deckImageSrc={props.bottom}/>
         </div>

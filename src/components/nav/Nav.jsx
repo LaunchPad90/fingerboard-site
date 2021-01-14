@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import logo from "../../images/logo/LOGO.svg"
-
 export default function Nav(props) {
   const Div = styled.div`
   `;
@@ -13,7 +11,7 @@ export default function Nav(props) {
 
   const Ul = styled.ul`
     list-style: none;
-    background-color: var(--font-dark);
+    background-color: black;
     height: 5rem;
     display: flex;
     align-items: center;
@@ -29,18 +27,15 @@ export default function Nav(props) {
   return (
     <Div>
       <Ul>
-        {/* <Li>
-          <A href="/"><img style={{marginTop: '.5rem'}} alt="logo" src={logo} /></A>
-        </Li> */}
         <Li>
           <A href="/">Home</A>
         </Li>
         <Li>
           <A href="/about/">Company</A>
         </Li>
-        {/* <Li>
+        <Li>
           <A href="/decks/">Decks</A>
-        </Li> */}
+        </Li>
         <Li>
           <A href="/decks/">Order</A>
         </Li>

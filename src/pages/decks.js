@@ -1,6 +1,5 @@
 import React from "react";
 import BoardGrid from "../components/board-grid/BoardGrid";
-import Hero from "../components/hero/Hero";
 import Layout from '../components/layout/Layout'
 
 import "../../src/global.css";
