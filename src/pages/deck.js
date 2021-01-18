@@ -23,6 +23,7 @@ export default function Deck(props) {
 
         .deck-about, .deck-price {
             margin: 0 2rem;
+            padding: 0;
         }
 
         .deck-image {
