@@ -3,8 +3,6 @@ import Layout from '../components/layout/Layout'
 
 import styled from 'styled-components'
 
-import test from "../images/deck-imgs/IMG_3019.jpg"
-
 export default function Deck(props) {
 
     const Padding = styled.div`
@@ -23,7 +21,6 @@ export default function Deck(props) {
 
         .deck-about, .deck-price {
             margin: 0 2rem;
-            padding: 0;
         }
 
         .deck-image {

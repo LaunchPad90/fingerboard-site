@@ -1,39 +1,43 @@
-import deck1 from "../images/deck-imgs/IMG_3020.jpg";
-import deck1b from "../images/deck-imgs/premium-decks/deck1.b.png";
-import deck2 from "../images/deck-imgs/IMG_3024.jpg";
-import deck2b from "../images/deck-imgs/premium-decks/deck2.b.png";
-import deck3 from "../images/deck-imgs/IMG_3035.jpg";
-import deck3b from "../images/deck-imgs/premium-decks/deck3.b.png";
-import deck4 from "../images/deck-imgs/IMG_3037.jpg";
-import deck4b from "../images/deck-imgs/premium-decks/deck4.b.png";
-import deck5 from "../images/deck-imgs/IMG_3043.jpg";
-import deck5b from "../images/deck-imgs/IMG_3042.jpg";
-import deck6 from "../images/deck-imgs/IMG_3044.jpg";
-import deck6b from "../images/deck-imgs/IMG_3047.jpg";
-import deck7 from "../images/deck-imgs/IMG_3048.jpg";
-import deck7b from "../images/deck-imgs/IMG_3049.jpg";
-import deck8 from "../images/deck-imgs/IMG_3050.jpg";
-import deck8b from "../images/deck-imgs/IMG_3051.jpg";
-import deck9 from "../images/deck-imgs/IMG_3053.jpg";
-import deck9b from "../images/deck-imgs/IMG_3052.jpg";
-import deck10 from "../images/deck-imgs/IMG_3061.jpg";
-import deck10b from "../images/deck-imgs/IMG_3062.jpg";
-import deck11 from "../images/deck-imgs/IMG_3063.jpg";
-import deck11b from "../images/deck-imgs/IMG_3064.jpg";
-import deck12 from "../images/deck-imgs/IMG_3066.jpg";
-import deck12b from "../images/deck-imgs/IMG_3067.jpg";
-import deck13 from "../images/deck-imgs/IMG_3068.jpg";
-import deck13b from "../images/deck-imgs/IMG_3069.jpg";
-import deck14 from "../images/deck-imgs/IMG_3070.jpg";
-import deck14b from "../images/deck-imgs/IMG_3071.jpg";
-import deck15 from "../images/deck-imgs/IMG_3073.jpg";
-import deck15b from "../images/deck-imgs/IMG_3074.jpg";
-import deck16 from "../images/deck-imgs/IMG_3075.jpg";
-import deck16b from "../images/deck-imgs/IMG_3076.jpg";
-import deck17 from "../images/deck-imgs/IMG_3077.jpg";
-import deck17b from "../images/deck-imgs/IMG_3078.jpg";
-import deck18 from "../images/deck-imgs/IMG_3079.jpg";
-import deck18b from "../images/deck-imgs/IMG_3080.jpg";
+import deck1 from "../images/deck-imgs/premium-decks/premDeck1.png";
+import deck1b from "../images/deck-imgs/premium-decks/premDeck1B.png";
+import deck2 from "../images/deck-imgs/premium-decks/premDeck2.png";
+import deck2b from "../images/deck-imgs/premium-decks/premDeck2B.png";
+import deck3 from "../images/deck-imgs/premium-decks/premDeck3.png";
+import deck3b from "../images/deck-imgs/premium-decks/premDeck3B.png";
+import deck4 from "../images/deck-imgs/premium-decks/premDeck4.png";
+import deck4b from "../images/deck-imgs/premium-decks/premDeck4B.png";
+import deck5 from "../images/deck-imgs/premium-decks/premDeck5.png";
+import deck5b from "../images/deck-imgs/premium-decks/premDeck5B.png";
+import deck6 from "../images/deck-imgs/premium-decks/premDeck6.png";
+import deck6b from "../images/deck-imgs/premium-decks/premDeck6B.png";
+import deck7 from "../images/deck-imgs/premium-decks/premDeck7.png";
+import deck7b from "../images/deck-imgs/premium-decks/premDeck7B.png";
+import deck8 from "../images/deck-imgs/premium-decks/premDeck8.png";
+import deck8b from "../images/deck-imgs/premium-decks/premDeck8B.png";
+import deck9 from "../images/deck-imgs/premium-decks/premDeck9.png";
+import deck9b from "../images/deck-imgs/premium-decks/premDeck9B.png";
+import deck10 from "../images/deck-imgs/premium-decks/premDeck10.png";
+import deck10b from "../images/deck-imgs/premium-decks/premDeck10B.png";
+import deck11 from "../images/deck-imgs/premium-decks/premDeck11.png";
+import deck11b from "../images/deck-imgs/premium-decks/premDeck11B.png";
+import deck12 from "../images/deck-imgs/premium-decks/premDeck12.png";
+import deck12b from "../images/deck-imgs/premium-decks/premDeck12B.png";
+import deck13 from "../images/deck-imgs/premium-decks/premDeck13.png";
+import deck13b from "../images/deck-imgs/premium-decks/premDeck13B.png";
+import deck14 from "../images/deck-imgs/premium-decks/premDeck14.png";
+import deck14b from "../images/deck-imgs/premium-decks/premDeck14B.png";
+
+
+import deck15 from "../images/deck-imgs/blem-decks/blemDeck1.png";
+import deck15b from "../images/deck-imgs/blem-decks/blemDeck1B.png";
+import deck16 from "../images/deck-imgs/blem-decks/blemDeck2.png";
+import deck16b from "../images/deck-imgs/blem-decks/blemDeck2B.png";
+import deck17 from "../images/deck-imgs/blem-decks/blemDeck3.png";
+import deck17b from "../images/deck-imgs/blem-decks/blemDeck3B.png";
+import deck18 from "../images/deck-imgs/blem-decks/blemDeck4.png";
+import deck18b from "../images/deck-imgs/blem-decks/blemDeck4B.png";
+import deck19 from "../images/deck-imgs/blem-decks/blemDeck5.png";
+import deck19b from "../images/deck-imgs/blem-decks/blemDeck5B.png";
 
 export default [
   {
@@ -141,6 +145,12 @@ export default [
   {
     top: `${deck18}`,
     bottom: `${deck18b}`,
+    content: "test text",
+    price: "$30.00",
+  },
+  {
+    top: `${deck19}`,
+    bottom: `${deck19b}`,
     content: "test text",
     price: "$30.00",
   },
