@@ -41,6 +41,7 @@ export default function Card(props) {
     text-align: left;
     margin: 1 rem 1.5rem;
   `;
+
   return (
     <div>
       <Card href="/deck">

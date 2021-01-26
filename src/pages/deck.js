@@ -1,89 +1,86 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-
 import styled from 'styled-components'
 
-export default function Deck(props) {
 
-    const Padding = styled.div`
-        padding: 0 15rem;
-        margin-top: 8rem;
+const Padding = styled.div`
+    padding: 0 15rem;
+    margin-top: 8rem;
 
-        .border {
-            border: 1px solid #474747;
-            padding: 2rem;
-        }
-    `;
+    .border {
+        border: 1px solid #474747;
+        padding: 2rem;
+    }
+`;
 
-    const Upper = styled.div`
+const Upper = styled.div`
+    display: flex;
+    justify-content: space-between;
+
+    .deck-about, .deck-price {
+        margin: 0 2rem;
+    }
+
+    .deck-image {
+        height: 37rem;
+        width: 32rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .deck-title {
+        color: var(--dark-blue);
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+`;
+
+const Lower = styled.div`
+    display: flex;
+    margin-top: 3rem;
+    border: 1px solid green;
+
+    .deck-other {
+        height: 5rem;
+        width: 5rem;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+    }
+
+    .deck-images--container {
         display: flex;
-        justify-content: space-between;
+        width: 25%;
+        border: 1px solid blue;
+    }
+`;
 
-        .deck-about, .deck-price {
-            margin: 0 2rem;
-        }
+const Description = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
 
-        .deck-image {
-            height: 37rem;
-            width: 32rem;
-            background: url(${test});
-            background-size: cover;
-            background-position: center;
-        }
+    h1 {
+        padding: 2rem;
+        font-size: 3rem;
+        color: var(--dark-blue);
+    }
 
-        .deck-title {
-            color: var(--dark-blue);
-        }
+    .deck-description--container {
 
-        h1 {
-            font-size: 3rem;
-        }
-    `;
+    }
 
-    const Lower = styled.div`
-        display: flex;
-        margin-top: 3rem;
-        border: 1px solid green;
+    .deck-description--full {
+        padding: 2rem;
+        font-size: 1.7rem;
+        width: 45vw;
+        color: var(--font-dark);
+    }
+`;
 
-        .deck-other {
-            background: url(${test});
-            height: 5rem;
-            width: 5rem;
-            background-size: cover;
-            background-position: center;
-            margin: 0 auto;
-        }
-
-        .deck-images--container {
-            display: flex;
-            width: 25%;
-            border: 1px solid blue;
-        }
-    `;
-
-    const Description = styled.div`
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 3rem;
-
-        h1 {
-            padding: 2rem;
-            font-size: 3rem;
-            color: var(--dark-blue);
-        }
-
-        .deck-description--container {
-
-        }
-
-        .deck-description--full {
-            padding: 2rem;
-            font-size: 1.7rem;
-            width: 45vw;
-            color: var(--font-dark);
-        }
-    `;
-
+export default function Deck() {
     return (
         <Layout>
             <Padding>

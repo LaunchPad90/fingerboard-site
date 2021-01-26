@@ -1,23 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import BoardGrid from "../components/board-grid/BoardGrid";
 
 import "../../src/global.css";
 import Layout from "../components/layout/Layout";
 
-
-
-class Home extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      
-    };
-  } 
-
-  render() {
-    const DivTitle = styled.div`
+const DivTitle = styled.div`
       font-size: 2rem;
       margin-bottom: 3rem;
       text-align: center;
@@ -35,10 +23,10 @@ class Home extends Component {
       height: 20vh;
     `;
 
-    
-  
+export default function Home() {
 
-    return (
+  return (
+    <div>
       <Layout>
         <TextDiv>
           <DivTitle>High Quality Hand Pressed Fingerboards</DivTitle>
@@ -48,8 +36,6 @@ class Home extends Component {
         </TextDiv>
         <BoardGrid />
       </Layout>
-    );
-  }
+    </div>
+  )
 }
-
-export default Home;
