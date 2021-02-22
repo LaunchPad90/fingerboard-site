@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import BoardGrid from "../components/board-grid/BoardGrid";
 
 import "../../src/global.css";
-import Layout from "../components/layout/Layout";
+import Layout from "../components/Layout/Layout";
+import CardLayout from "../components/Card/Card";
 
 const DivTitle = styled.div`
       font-size: 2rem;
@@ -34,7 +34,7 @@ export default function Home() {
             A selection of hand crafted decks made from maple and exotic veneer straight from Spokane, Washington in the Pacific Northwest!
           </P>
         </TextDiv>
-        <BoardGrid />
+        <CardLayout />
       </Layout>
     </div>
   )

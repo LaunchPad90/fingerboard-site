@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 import insta from '../../images/social-icons/Instagram_white.png'
 
-export const Footer = () => {
   const Div = styled.div`
     height: 10rem;
     background: var(--font-dark);
@@ -20,6 +19,8 @@ export const Footer = () => {
 
     }
   `;
+  
+export const Footer = () => {
   return (
       <Div>
         <div className="social-container">

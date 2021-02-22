@@ -1,11 +1,9 @@
 import React from "react";
 import styled from 'styled-components'
-import Layout from "../components/layout/Layout"
+import Layout from "../components/Layout/Layout"
 
 import "../../src/global.css";
 
-export default function About(props) {
-  
   const Div = styled.div`
     min-height:55vh;
     padding: 2rem 15rem;
@@ -23,6 +21,9 @@ export default function About(props) {
       font-family: "Roboto Mono", monospace;
     }
   `;
+
+export default function About(props) {
+  
 
   return (
     <Layout>

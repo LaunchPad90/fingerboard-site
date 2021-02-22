@@ -6,9 +6,12 @@ module.exports = {
 
     plugins: [
       {
-        resolve: `gatsby-plugin-styled-components`,
+        resolve: `gatsby-source-graphql`,
         options: {
-          // Add any options here
+            typeName: `GraphCMS`,
+            fieldName: `gcms`,
+            url: process.env.GATSBY_GRAPH_CMS_URL,
+            downloadLocalImages: true,
         },
       },
     ],

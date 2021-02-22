@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Nav(props) {
   const Div = styled.div`
   `;
 
@@ -23,6 +22,8 @@ export default function Nav(props) {
     font-size: 2.4rem;
     color: var(--font-light);
   `;
+  
+export default function Nav(props) {
 
   return (
     <Div>
