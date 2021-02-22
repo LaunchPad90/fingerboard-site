@@ -6,22 +6,22 @@ import Layout from "../components/Layout/Layout";
 import CardLayout from "../components/Card/Card";
 
 const DivTitle = styled.div`
-      font-size: 2rem;
-      margin-bottom: 3rem;
-      text-align: center;
-    `;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+`;
 
-    const P = styled.p`
-      font-size: 1.6rem;
-      text-align: center;
-      margin: 1rem 0;
-      font-family: "Roboto Mono", monospace;
-    `;
+const P = styled.p`
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-family: "Roboto Mono", monospace;
+`;
 
-    const TextDiv = styled.div`
-      margin: 4rem 20rem;
-      height: 20vh;
-    `;
+const TextDiv = styled.div`
+  margin: 4rem 20rem;
+  height: 20vh;
+`;
 
 export default function Home() {
 

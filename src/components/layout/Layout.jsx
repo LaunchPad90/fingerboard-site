@@ -5,12 +5,6 @@ import { Footer } from '../Footer/Footer'
 import Nav from '../Nav/Nav'
 import ColorLogo from '../../images/logo/colorLogo.png'
 
-const Div = styled.div`
-    display: flex;
-    flex-direction: column;
-
-`;
-
 const Logo = styled.div`
       height: 20rem;
       width: 20rem;
@@ -25,11 +19,11 @@ const Logo = styled.div`
 export default function Layout({ children }) {
 
     return (
-        <Div>
+        <div>
             <Nav />
             <Logo />
             {children}
             <Footer />
-        </Div>
+        </div>
     )
 }
