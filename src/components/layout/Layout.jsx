@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Footer } from '../footer/Footer'
-import Nav from '../nav/Nav'
+import { Footer } from '../Footer/Footer'
+import Nav from '../Nav/Nav'
 import ColorLogo from '../../images/logo/colorLogo.png'
 
 const Div = styled.div`

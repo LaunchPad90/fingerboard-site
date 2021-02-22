@@ -11,11 +11,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.87",
-    "gatsby-plugin-netlify-cms": "^4.3.17",
-    "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-plugin-styled-components": "^3.3.10",
-    "netlify-cms-app": "^2.13.2",
-    "node-sass": "^4.14.1",
+    "gatsby-source-graphql": "^2.14.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.0"
