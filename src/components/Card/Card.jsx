@@ -50,7 +50,7 @@ const pageQuery = graphql`
                 photos(where: {fileName_contains: "B"}) {
                     id
                     fileName
-                    url(transformation: {document: {output: {format: webp}}, image: {resize: {height: 300, width: 200}}})
+                    url(transformation: {document: {output: {format: webp}}})
                 }
             }
         }
