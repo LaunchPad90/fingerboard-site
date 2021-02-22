@@ -5,6 +5,8 @@ import styled from 'styled-components'
 const CardContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 10rem;
 
     .card-link {
         text-decoration: none;
@@ -15,7 +17,8 @@ const CardContainer = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-height: 45rem;
+        width: 30rem;
+        height: 34rem;
         text-decoration: none;
         margin: 0 1rem 2rem 1rem;
         overflow: hidden;
