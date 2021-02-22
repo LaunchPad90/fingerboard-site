@@ -45,7 +45,7 @@ const CardContainer = styled.div`
         width: 12rem;
         margin-bottom: 0;
         margin: 0 auto;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
