@@ -38,31 +38,6 @@ const Details = styled.div`
     }
 `;
 
-// const Lower = styled.div`
-//     display: flex;
-//     margin-top: 3rem;
-//     border: 1px solid green;
-
-//     .deck-other {
-//         height: 5rem;
-//         width: 5rem;
-//         background-size: cover;
-//         background-position: center;
-//         margin: 0 auto;
-//     }
-
-//     .deck-images--container {
-//         display: flex;
-//         justify-content: space-evenly;
-//         width: 25%;
-//         border: 1px solid blue;
-//     }
-
-//     .deck-image--small {
-//         height: 5rem;
-//         width: 2rem;
-//     }
-// `;
 
 const Description = styled.div`
     display: flex;
@@ -88,7 +63,6 @@ const Description = styled.div`
 `;
 
 export default function DetailsPage({data: {gcms: {deck}}}) {
-    console.log({deck})
     return (
         <Layout>
             <Padding>
@@ -105,11 +79,6 @@ export default function DetailsPage({data: {gcms: {deck}}}) {
                             </h1>
                         </div>
                     </Details>
-                    {/* <Lower>
-                        <div className="deck-images--container">
-                            <img className="deck-image--small" alt="deck" src={deck.photos[1].url} />
-                        </div>
-                    </Lower> */}
                 </div>
                 <Description>
                     <h1>

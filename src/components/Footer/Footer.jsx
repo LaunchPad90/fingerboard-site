@@ -18,14 +18,20 @@ import insta from '../../images/social-icons/Instagram_white.png'
     #insta-link {
 
     }
+
+    .footer-title {
+      color: var(--white);
+      font-size: 1.4rem;
+      border: 1px solid white;
+    }
   `;
   
 export const Footer = () => {
   return (
       <Div>
         <div className="social-container">
-          <div>
-            <a href="www.instagram.com">
+          <div className="instagram-container">
+            <a href="https://www.instagram.com/509.fingerboards/" target="blank">
               <img id="insta-link" src={insta} alt="instagram logo" />
             </a>
           </div>
