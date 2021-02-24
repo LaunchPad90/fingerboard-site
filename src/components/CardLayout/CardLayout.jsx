@@ -2,6 +2,23 @@ import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import styled from 'styled-components'
 
+const pageQuery = graphql`
+    {
+        gcms {
+            decks {
+                name 
+                slug
+                price
+                photos(where: {fileName_contains: "B"}) {
+                    id
+                    fileName
+                    url(transformation: {document: {output: {format: webp}}})
+                }
+            }
+        }
+    }
+`;
+
 const CardContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
@@ -10,7 +27,7 @@ const CardContainer = styled.div`
 
     .card-link {
         text-decoration: none;
-        color: black;
+        color: var(--black);
     }
 
     .card {
@@ -22,7 +39,7 @@ const CardContainer = styled.div`
         text-decoration: none;
         margin: 0 1rem 2rem 1rem;
         overflow: hidden;
-        border: 1px solid #f9f9f9;
+        border: 1px solid var(--white);
         
         &:hover {
             border: 1px solid;
@@ -43,22 +60,6 @@ const CardContainer = styled.div`
     }
 `;
 
-const pageQuery = graphql`
-    {
-        gcms {
-            decks {
-                name 
-                slug
-                price
-                photos(where: {fileName_contains: "B"}) {
-                    id
-                    fileName
-                    url(transformation: {document: {output: {format: webp}}})
-                }
-            }
-        }
-    }
-`;
 
 export default function CardLayout() {
     const {gcms: {decks}} = useStaticQuery(pageQuery)

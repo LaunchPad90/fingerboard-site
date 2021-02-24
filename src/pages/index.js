@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import "../../src/global.css";
+import "../../styles/global.css";
+import "../../styles/media";
 import Layout from "../components/Layout/Layout";
-import CardLayout from "../components/Card/Card";
+import CardLayout from "../components/CardLayout/CardLayout";
 
 const DivTitle = styled.div`
   font-size: 2rem;

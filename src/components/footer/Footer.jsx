@@ -5,7 +5,7 @@ import insta from '../../images/social-icons/Instagram_white.png'
 
   const Div = styled.div`
     height: 10rem;
-    background: var(--font-dark);
+    background: var(--black);
 
     .social-container {
       display: flex;

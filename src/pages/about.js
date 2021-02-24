@@ -1,8 +1,9 @@
 import React from "react";
 import styled from 'styled-components'
-import Layout from "../components/Layout/Layout"
 
-import "../../src/global.css";
+import "../../styles/global.css";
+import "../../styles/media";
+import Layout from "../components/Layout/Layout"
 
   const Div = styled.div`
     min-height:55vh;

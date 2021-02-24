@@ -13,7 +13,7 @@ export default function Hero(props) {
     .heroText {
       font-size: 4rem;
       text-align: center;
-      color: var(--font-light);
+      color: var(--white);
       margin-top: 5%;
     }
   `;
