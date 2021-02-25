@@ -5,8 +5,9 @@ import "../../styles/global.css"
 import "../../styles/media"
 import Layout from '../components/Layout/Layout'
 import CardLayout from "../components/CardLayout/CardLayout"
+import BlemCard from "../components/CardLayout/BlemDeckCard"
 
-const PremDeckContainer = styled.div`
+const DeckContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,15 +20,20 @@ const PremDeckContainer = styled.div`
   }
 `;
 
-export default function Decks(props) {
+export default function Decks() {
   return (
     <Layout>
-      <PremDeckContainer>
+      <DeckContainer>
         <div className="deck-title">
           Premium Decks
         </div>
         <CardLayout />
-      </PremDeckContainer>
+        
+        <div className="deck-title">
+          Blemished Decks
+        </div>
+        <BlemCard />
+      </DeckContainer>
     </Layout>
   );
 }
