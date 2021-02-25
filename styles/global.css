@@ -13,7 +13,9 @@ body {
   --black: #353535;
   --white: #f8f8ff;
   --dark-blue: #0c569b;
+  --light-blue: #0d9fb4;
   --slategrey: #c2c2c2;
+  --red: #e6716d;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono');
