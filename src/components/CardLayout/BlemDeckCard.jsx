@@ -5,11 +5,11 @@ import styled from 'styled-components'
 const pageQuery = graphql`
     {
         gcms {
-            decks(where: {price: 20}) {
-                name 
+            decks(where: {price: 15}) {
+                name
                 slug
                 price
-                photos(where: {fileName_contains: "B"}) {
+                photos(where: {fileName_ends_with: "B.png"}) {
                     id
                     fileName
                     url(transformation: {document: {output: {format: webp}}})
@@ -61,10 +61,11 @@ const CardContainer = styled.div`
 `;
 
 
-export default function CardLayout() {
+export default function BlemCard() {
     const {gcms: {decks}} = useStaticQuery(pageQuery)
     return (
         <CardContainer>
+            {console.log({decks})}
             {decks.map(({slug, ...deck}) => (
                 <Link className="card-link" key={slug} to={`/decks/${slug}`}>
                     <div className="card">
