@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Layout from '../components/Layout/Layout'
 
 
@@ -18,15 +19,10 @@ const Details = styled.div`
     display: flex;
 
     button {
-        font-size: 2rem;
-        border-radius: 1rem;
-        padding: .5rem;
-        height: 10rem;
-        width: 2.5rem;
-        text-align: center;
-        color: var(--white);
-        background: var(--dark-blue);
-        border: 1px solid var(--light-blue);
+        color: var(--dark-blue);
+        border: var(--white);
+        background: var(--white);
+        cursor: pointer;
     }
 
     .carousel {
@@ -72,8 +68,8 @@ const Details = styled.div`
 
     .shipping-info {
         border: 1px solid var(--dark-blue);
-        height: 12rem;
-        width: 40rem;
+        width: 55rem;
+        padding: 1rem;
     }
 `;
 
@@ -123,9 +119,9 @@ export default function DetailsPage({data: {gcms: {deck}}}) {
                 <div className="border">
                     <Details>
                         <div className="carousel">
-                            <button onClick={slideLeft}>{"<"}</button>
+                            <button onClick={slideLeft}><FaArrowLeft size={40} /></button>
                             <img src={deck.photos[index].url} alt={index} className="deck-image"/>
-                            <button onClick={slideRight}>{">"}</button>
+                            <button onClick={slideRight}><FaArrowRight size={40}/></button>
                         </div>
                         <div className="deck-title">
                             <h1 className="deck-name">
