@@ -132,7 +132,7 @@ export default function DetailsPage({data: {gcms: {deck}}}) {
                             </h2>
                             <div className="shipping-info">
                                 <h4>Important Shipping Information</h4>
-                                <p>All orders need to be made via direct email communication. You can get in touch with me at <span className="future-link">orders@509fb.com</span>. Shipping information and pricing will be based on UPS ground rates. Payment will be needed to finalize shipping. Payments can be made via <span>Venmo</span> or <span>PayPal</span> currently. Other payment options will be available in the future.</p>
+                                <p>Each deck ships with a single piece of grip tape. All orders need to be made via direct email communication. You can get in touch with me at <span className="future-link">orders@509fb.com</span>. Shipping information and pricing will be based on UPS ground rates. Payment will be needed to finalize shipping. Payments can be made via <span>Venmo</span> or <span>PayPal</span> currently. Other payment options will be available in the future.</p>
                             </div>
                         </div>
                     </Details>
