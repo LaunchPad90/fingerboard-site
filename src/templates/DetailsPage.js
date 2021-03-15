@@ -99,16 +99,16 @@ const Description = styled.div`
 
 
 export default function DetailsPage({data: {gcms: {deck}}}) {
-    const [index, setIndex] = useState(0); // create state to keep track of images index, set the default index to 0
+    const [index, setIndex] = useState(0); 
     
     const slideRight = () => {
-        setIndex((index + 1) % deck.photos.length); // increases index by 1
+        setIndex((index + 1) % deck.photos.length); 
     };
     
     const slideLeft = () => {
         const nextIndex = index - 1;
         if (nextIndex < 0) {
-            setIndex(deck.photos.length - 1); // returns last index of images array if index is less than 0
+            setIndex(deck.photos.length - 1); 
         } else {
             setIndex(nextIndex);
         }
@@ -119,9 +119,17 @@ export default function DetailsPage({data: {gcms: {deck}}}) {
                 <div className="border">
                     <Details>
                         <div className="carousel">
-                            <button onClick={slideLeft}><FaArrowLeft size={40} /></button>
+                            <button onClick={slideLeft} type="button">
+                                <label htmlFor="a">
+                                    <FaArrowLeft size={40} />
+                                </label>
+                            </button>
                             <img src={deck.photos[index].url} alt={index} className="deck-image"/>
-                            <button onClick={slideRight}><FaArrowRight size={40}/></button>
+                            <button onClick={slideRight}>
+                                <label htmlFor="a">
+                                    <FaArrowRight size={40}/>
+                                </label>
+                            </button>
                         </div>
                         <div className="deck-title">
                             <h1 className="deck-name">

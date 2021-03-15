@@ -19,11 +19,10 @@ import Layout from "../components/Layout/Layout"
       font-size: 2rem;
       margin: 2rem;
       text-align: justify;
-      font-family: "Roboto Mono", monospace;
     }
   `;
 
-export default function About(props) {
+export default function About() {
   
 
   return (

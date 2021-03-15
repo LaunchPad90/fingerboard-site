@@ -18,9 +18,9 @@ body {
   --red: #A52422;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Condensed&family=Roboto+Mono&family=Ranchers');
 
 html {
-  color: var(--font-dark);
+  color: var(--black);
   font-family: 'Merriweather Sans', sans-serif;
 }

@@ -7,16 +7,17 @@ import Layout from "../components/Layout/Layout";
 import CardLayout from "../components/CardLayout/CardLayout";
 
 const DivTitle = styled.div`
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 3rem;
   text-align: center;
+  font-family: 'Ranchers';
+  text-decoration: underline;
 `;
 
 const P = styled.p`
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: center;
   margin: 1rem 0;
-  font-family: "Roboto Mono", monospace;
 `;
 
 const TextDiv = styled.div`
