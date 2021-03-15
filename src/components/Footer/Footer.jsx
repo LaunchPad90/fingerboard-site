@@ -15,6 +15,11 @@ const Div = styled.div`
     flex-direction: column;
     width: 40%;
     align-items: center;
+
+    .copyright {
+      font-size: 1.5rem;
+      margin: 2rem 0 -1.3rem 0;
+    }
   }
 
   .social-icon-container {
@@ -54,13 +59,21 @@ const Div = styled.div`
         list-style: none;
         font-size: 1.3rem;
       }
+
+      .about-links--list-item, .contact-links--list-item, .connect-links--list-item {
+        margin-bottom: .5rem;
+      }
+
+      a {
+        font-size: 1.3rem;
+      }
     }
   }
 `;
 
 const Logo = styled.div`
-  height: 10rem;
-  width: 10rem;
+  height: 7rem;
+  width: 7rem;
   background-image: url(${logo});
   background-size: contain;
   background-position: center;
@@ -87,29 +100,33 @@ export const Footer = () => {
               </a>
             </div>
           </div>
+          <div className="copyright">@2021 509 Fingerboards</div>
         </div>
         <div className="site-map-container">
             <ul className="footer-lists">
               <li className="footer-lists-left">
                 <div className="about-links">About</div>
                 <ul className="about-links--list">
-                  <li className="privacy-notice">Privacy Notice</li>
-                  <li className="privacy-rights">Your Privacy Rights</li>
-                  <li className="terms-of-use">Terms of Use</li>
-                  <li className="company">About the Company</li>
+                  <li className="about-links--list-item">Privacy Notice</li>
+                  <li className="about-links--list-item">Your Privacy Rights</li>
+                  <li className="about-links--list-item">Terms of Use</li>
+                  <li className="about-links--list-item">
+                    <a href="/about">About the Company</a>
+                  </li>
                 </ul>
               </li>
               <li className="footer-lists-middle">
                 <div className="contact-links">Contact</div>
                 <ul className="contact-links--list">
-                  <li className="customer-service">Customer Service</li>
+                  <li className="contact-links--list-item">Customer Service</li>
+                  <li className="contact-links--list-item">Orders</li>
                 </ul>
               </li>
               <li className="footer-lists-right">
                 <div className="connect-links">Connect</div>
                 <ul className="connect-links--list">
-                  <li className="facebook">Facebook</li>
-                  <li className="twitter">Twitter</li>
+                  <li className="connect-links--list-item">Facebook</li>
+                  <li className="connect-links--list-item">Twitter</li>
                 </ul>
               </li>
             </ul>

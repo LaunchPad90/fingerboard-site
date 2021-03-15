@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Footer } from '../Footer/Footer'
 import Nav from '../Nav/Nav'
 import ColorLogo from '../../images/logo/colorLogo.png'
+import '../../../styles/global.css'
 
 const Logo = styled.div`
     height: 20rem;

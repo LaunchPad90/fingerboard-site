@@ -32,7 +32,7 @@ export default function Nav() {
           <a href="/about/">Company</a>
         </li>
         <li>
-          <a href="/decks/">Decks</a>
+          <a href="/decks/">All Decks</a>
         </li>
       </Ul>
     </div>
