@@ -21,7 +21,7 @@ export default function Layout({ children }) {
     return (
         <div>
             <Nav />
-            <Logo />
+            <a href="/"><Logo /></a>
             {children}
             <Footer />
         </div>
