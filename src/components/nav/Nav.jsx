@@ -7,7 +7,8 @@ const Ul = styled.ul`
   height: 5rem;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 1rem;
 
   li {
     text-decoration: none;
@@ -29,10 +30,13 @@ export default function Nav() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/about/">Company</a>
+          <a href="/decks/">All Decks</a>
         </li>
         <li>
-          <a href="/decks/">All Decks</a>
+          <a href="/blemished/">Discounted Decks</a>
+        </li>
+        <li>
+          <a href="/about/">Company</a>
         </li>
       </Ul>
     </div>

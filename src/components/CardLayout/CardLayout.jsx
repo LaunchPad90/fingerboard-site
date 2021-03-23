@@ -23,7 +23,7 @@ const CardContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0 10rem;
+    padding: 1rem 10rem;
 
     .card-link {
         text-decoration: none;
@@ -42,7 +42,7 @@ const CardContainer = styled.div`
         border: 1px solid var(--white);
         
         &:hover {
-            border: 1px solid;
+            border: 1px solid var(--black);
         }
     }
 

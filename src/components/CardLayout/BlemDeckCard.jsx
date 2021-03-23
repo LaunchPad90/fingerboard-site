@@ -23,7 +23,7 @@ const CardContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0 10rem;
+    padding: 1rem 10rem;
 
     .card-link {
         text-decoration: none;

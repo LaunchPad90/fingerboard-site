@@ -86,51 +86,48 @@ export const Footer = () => {
       <Div>
         <div className="company-info-container">
           <div className="logo-container">
-            <Logo />
-          </div>
-          <div className="social-icon-container">
-            <div className="instagram-container">
-              <a href="https://www.instagram.com/509.fingerboards/" target="blank" className="insta-link">
-                <FaInstagram size={40} />
-              </a>
-            </div>
-            <div className="facebook-container">
-              <a href="https://www.facebook.com/" target="blank" className="fb-link">
-                <FaFacebookSquare size={40} />
-              </a>
-            </div>
+            <a href="/"><Logo /></a>
           </div>
           <div className="copyright">@2021 509 Fingerboards</div>
         </div>
         <div className="site-map-container">
-            <ul className="footer-lists">
-              <li className="footer-lists-left">
-                <div className="about-links">About</div>
-                <ul className="about-links--list">
-                  <li className="about-links--list-item">Privacy Notice</li>
-                  <li className="about-links--list-item">Your Privacy Rights</li>
-                  <li className="about-links--list-item">Terms of Use</li>
-                  <li className="about-links--list-item">
-                    <a href="/about">About the Company</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="footer-lists-middle">
-                <div className="contact-links">Contact</div>
-                <ul className="contact-links--list">
-                  <li className="contact-links--list-item">Customer Service</li>
-                  <li className="contact-links--list-item">Orders</li>
-                </ul>
-              </li>
-              <li className="footer-lists-right">
-                <div className="connect-links">Connect</div>
-                <ul className="connect-links--list">
-                  <li className="connect-links--list-item">Facebook</li>
-                  <li className="connect-links--list-item">Twitter</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+          <ul className="footer-lists">
+            <li className="footer-lists-left">
+              <div className="about-links">About</div>
+              <ul className="about-links--list">
+                <li className="about-links--list-item"><a href="https://www.freeprivacypolicy.com/live/62fecb22-49e0-43e8-b803-ed92cbfa5f8d">Privacy Notice</a></li>
+                <li className="about-links--list-item"><a href="https://www.termsfeed.com/live/7a342eeb-7940-480d-9d3b-f9f2649d2195">Terms of Use</a></li>
+                <li className="about-links--list-item">
+                  <a href="/about">About the Company</a>
+                </li>
+              </ul>
+            </li>
+            <li className="footer-lists-middle">
+              <div className="contact-links">Contact</div>
+              <ul className="contact-links--list">
+                <li className="contact-links--list-item"><a href="mailto: 509.fingerboards.gmail.com">Customer Service</a></li>
+                <li className="contact-links--list-item"><a href="mailto: 509.fingerboards.gmail.com">Orders</a></li>
+              </ul>
+            </li>
+            <li className="footer-lists-right">
+              <div className="connect-links">Connect</div>
+              <ul className="connect-links--list">
+                <div className="social-icon-container">
+                  <div className="instagram-container">
+                    <a href="https://www.instagram.com/509.fingerboards/" target="blank" className="insta-link">
+                      <FaInstagram size={40} />
+                    </a>
+                  </div>
+                  <div className="facebook-container">
+                    <a href="https://www.facebook.com/" target="blank" className="fb-link">
+                      <FaFacebookSquare size={40} />
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </Div>
     )
 };

@@ -14,8 +14,9 @@ const DeckContainer = styled.div`
   align-items: center;
 
   .deck-title {
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin: 2rem;
+    font-family: 'Ranchers';
     text-decoration: underline;
   }
 `;
