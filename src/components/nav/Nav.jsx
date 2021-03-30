@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 const Ul = styled.ul`
   list-style: none;
-  background-color: black;
+  background-color: var(--black);
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 3rem;
 
   li {
     text-decoration: none;
@@ -33,7 +33,7 @@ export default function Nav() {
           <a href="/decks/">All Decks</a>
         </li>
         <li>
-          <a href="/blemished/">Discounted Decks</a>
+          <a href="/blemished/">Blemishded Decks</a>
         </li>
         <li>
           <a href="/about/">Company</a>

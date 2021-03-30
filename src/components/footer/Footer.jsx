@@ -13,7 +13,7 @@ const Div = styled.div`
   .company-info-container {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     align-items: center;
 
     .copyright {
@@ -39,7 +39,7 @@ const Div = styled.div`
 
   .site-map-container {
     display: flex;
-    width: 60%;
+    width: 70%;
 
     .footer-lists {
       display: flex;
@@ -98,7 +98,7 @@ export const Footer = () => {
                 <li className="about-links--list-item"><a href="https://www.freeprivacypolicy.com/live/62fecb22-49e0-43e8-b803-ed92cbfa5f8d">Privacy Notice</a></li>
                 <li className="about-links--list-item"><a href="https://www.termsfeed.com/live/7a342eeb-7940-480d-9d3b-f9f2649d2195">Terms of Use</a></li>
                 <li className="about-links--list-item">
-                  <a href="/about">About the Company</a>
+                  <a href="/about">About 509 FB</a>
                 </li>
               </ul>
             </li>

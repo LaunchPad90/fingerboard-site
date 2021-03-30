@@ -38,6 +38,11 @@ const Details = styled.div`
         background-position: center;
     }
 
+    .deck-price {
+        font-size: 3.2rem;
+        color: var(--dark-blue);
+    }
+
     .deck-name, .deck-price, .shipping-info, button {
         margin: 1rem 2rem;
     }
@@ -47,14 +52,10 @@ const Details = styled.div`
         color: var(--black);
     }
 
-    h2 {
-        font-size: 2.5rem;
-        color: var(--dark-blue);
-    }
-
     h4 {
         font-size: 1.8rem;
         color: var(--red);
+        margin-bottom: 1.3rem;
     }
 
     p {
@@ -67,9 +68,11 @@ const Details = styled.div`
     }
 
     .shipping-info {
-        border: 1px solid var(--dark-blue);
+        border: 3px solid var(--dark-blue);
         width: 55rem;
-        padding: 1rem;
+        padding: 1.7rem;
+        background: var(--slategrey);
+        box-shadow: 8px 12px 15px #888888;
     }
 `;
 
@@ -77,12 +80,14 @@ const Details = styled.div`
 const Description = styled.div`
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
 
     h1 {
-        padding: 2rem;
-        font-size: 3rem;
+        padding: 2rem 0;
+        font-size: 4.5rem;
         color: var(--dark-blue);
+        text-decoration: underline;
+        font-family: 'Ranchers';
     }
 
     .deck-description--container {
@@ -90,8 +95,8 @@ const Description = styled.div`
     }
 
     .deck-description--full {
-        padding: 2rem;
-        font-size: 1.7rem;
+        padding: 2rem 0;
+        font-size: 2rem;
         width: 45vw;
         color: var(--black);
     }
@@ -140,7 +145,7 @@ export default function DetailsPage({data: {gcms: {deck}}}) {
                             </h2>
                             <div className="shipping-info">
                                 <h4>Important Shipping Information</h4>
-                                <p>Each deck ships with a single piece of grip tape. All orders need to be made via direct email communication. You can get in touch with me at <span className="future-link">orders@509fb.com</span>. Shipping information and pricing will be based on UPS ground rates. Payment will be needed to finalize shipping. Payments can be made via <span>Venmo</span> or <span>PayPal</span> currently. Other payment options will be available in the future.</p>
+                                <p>All orders need to be made via direct email communication. You can get in touch with me at <span className="future-link">orders@509fb.com</span>. Shipping information and pricing will be based on UPS ground rates. Payment will be needed to finalize shipping. Payments can be made via <span>Venmo</span> or <span>PayPal</span> currently. Other payment options will be available in the future.</p>
                             </div>
                         </div>
                     </Details>
